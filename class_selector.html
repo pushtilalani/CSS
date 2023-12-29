@@ -1,17 +1,69 @@
-<html>
+
+ example-1
+
+ <html>
     <head>
         <style>
             .center {
                 text-align: center;
                 color: blue;
             }
-            .center2{
+            .center2 {
                 background-color: peru;
             }
         </style>
     </head>
     <body>
-        <h1 class="center center2">heading1</h1>                <!-- Multiple class is allowed -->
+        <h1 class="center center2">heading1</h1>              <!--   Multiple class is allowed -->
         <p class="center">paragraph1</p>
+    </body>
+</html> 
+
+
+
+
+
+ example-2 
+
+<html>
+    <head>
+        <style>
+            p.center {
+                text-align: center;
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="center">No effect of center class</h1>
+        <p class="center">Center text-align</p>
+    </body>
+</html> 
+
+
+
+
+
+
+ examplpe 3 
+
+
+<html>
+    <head>
+        <style>
+            p.center {
+                text-align: center;
+                color: red;
+            }
+            p.large {
+                font-size: 200%;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="center">No effect of center class</h1>
+        <p class="center">Center text-align</p>
+        <p class="large">Large font-size</p>
+        <p class="center large">Effect of both center and large class</p>
     </body>
 </html>
